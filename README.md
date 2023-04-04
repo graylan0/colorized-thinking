@@ -1,9 +1,11 @@
 # colorized-thinking
 A progression of different converstional idea generation systems with OpenAI GPT 3.5 Turbo
-DAO Democracy
+
+
+``DAO Democracy```
 i want to integreate this to customtkinter
 
-
+```
 !pip install numpy 
 !pip install requests
 !pip install scikit-learn
@@ -74,10 +76,10 @@ def main():
 if __name__ == '__main__':
     main()
 
-     
+     ```
 
 insspired by this
-
+```
 import tkinter
 import tkinter.messagebox
 import customtkinter
@@ -242,7 +244,7 @@ class App(customtkinter.CTk):
 if __name__ == "__main__":
     app = App()
     app.mainloop()
-
+```
 To integrate the given code to the custom tkinter GUI, you need to follow these steps:
 
 Import the necessary modules and packages in your file, including the custom tkinter package.
@@ -254,7 +256,7 @@ Add the necessary widgets to the custom tkinter GUI, such as labels, buttons, an
 Define event handler functions for the widgets to respond to user interactions, such as button clicks and text input.
 Call the functions to retrieve historical data, train the model, and make predictions, and display the results in the GUI.
 Here is an example implementation of the above steps:
-
+```
 python
 Copy code
 import requests
@@ -314,7 +316,7 @@ class BitcoinPricePredictor(ctk.CTk):
         self.title_label.pack(pady=10)
 
         self.prediction_label = ctk.CTkLabel(self, text="Predicted price: ")
-
+```
 
 
 DAO Democracy
@@ -492,7 +494,7 @@ The App class is defined as a subclass of the customtkinter.CTk class
 
 
 
-
+```
 DAO Democracy
 TRUCATED
 import requests
@@ -552,7 +554,7 @@ class BitcoinPricePredictor(ctk.CTk):
         self.title_label.pack(pady=10)
 
         self.prediction_label = ctk.CTkLabel(self, text="Predicted price: ")
-
+```
 TRUNCATED
 python
 Copy code
@@ -579,7 +581,7 @@ self.prediction_entry = ctk.CTkEntry(self)
 if __name__ == "__main__":
     app = BitcoinPricePredictor()
     app.mainloop()
-
+```
 
 
 DAO Democracy
@@ -649,7 +651,7 @@ Copy code
 if __name__ == '__main__':
     app = BitcoinPricePredictor()
     app.run()
-
+```
 
 
 DAO Democracy
@@ -657,7 +659,7 @@ add charting
 Sure, here's an example of how you could add a chart to the GUI using the matplotlib library:
 
 python
-Copy code
+```
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
@@ -713,6 +715,7 @@ model = train_model(historical_data)
 prediction = make_predictions(model, days_var.get())
 self.prediction_label.config(text=f"Predicted price: {prediction[0]:.2f} USD")
 plot_chart(historical_data, prediction)
+```
 This code defines a plot_chart function that takes the historical data and prediction as inputs and generates a chart using matplotlib. The chart shows the historical Bitcoin prices as a blue line and the predicted price as an orange line.
 
 In the update_prediction function, we get the selected number of days into the future from the dropdown menu and make a new prediction using the trained model. We then update the prediction label with the new value and call the plot_chart function to update the chart.
@@ -797,13 +800,15 @@ Copy code
    ___________    ___________    ___________
   |    #8B0000|  |    #00CED1|  |    #FF00FF|
   |____________|  |____________|  |____________|
+  
+  ```
 Use deep learning to improve the model's accuracy (#FFB6C1)
 Add more features to the model (#00FF7F)
 Use ensemble methods to combine multiple models (#9370DB)
 Incorporate external factors such as news sentiment (#FFDAB9)
 Implement a sliding window approach to account for time-dependent changes (#ADD8E6)
 Use more
-```
+
 
 
 DAO Democracy
