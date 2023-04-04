@@ -77,8 +77,6 @@ if __name__ == '__main__':
     main()
 
 
-insspired by this
-```
 import tkinter
 import tkinter.messagebox
 import customtkinter
@@ -239,11 +237,10 @@ class App(customtkinter.CTk):
     def sidebar_button_event(self):
         print("sidebar_button click")
 
-```
 if __name__ == "__main__":
     app = App()
     app.mainloop()
-
+```
 To integrate the given code to the custom tkinter GUI, you need to follow these steps:
 
 Import the necessary modules and packages in your file, including the custom tkinter package.
@@ -315,13 +312,11 @@ class BitcoinPricePredictor(ctk.CTk):
         self.title_label.pack(pady=10)
 
         self.prediction_label = ctk.CTkLabel(self, text="Predicted price: ")
-```
 
 
 DAO Democracy
 continue here
 
-```
 import tkinter
 import tkinter.messagebox
 import customtkinter
@@ -586,7 +581,6 @@ if __name__ == "__main__":
 DAO Democracy
 continue from here
 
-```
 
 # Create the custom tkinter GUI
 class BitcoinPricePredictor(ctk.CTk):
@@ -602,7 +596,6 @@ class BitcoinPricePredictor(ctk.CTk):
         self.title_label.pack(pady=10)
 
         self.prediction_label = ctk.CTkLabel(self, text="Predicted price: ")
-```
 from here only
 python
 Copy code
