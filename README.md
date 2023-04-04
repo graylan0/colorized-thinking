@@ -1,6 +1,7 @@
 # colorized-thinking
 A progression of different converstional idea generation systems with OpenAI GPT 3.5 Turbo
 
+A version of this is now on OpenAi's website as well, they obviouslsy have tried this prompt. You can find this on the "openai API" for 3.5 Turbo GPT
 
 ``DAO Democracy```
 i want to integreate this to customtkinter
