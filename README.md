@@ -76,7 +76,6 @@ def main():
 if __name__ == '__main__':
     main()
 
-     ```
 
 insspired by this
 ```
@@ -240,11 +239,11 @@ class App(customtkinter.CTk):
     def sidebar_button_event(self):
         print("sidebar_button click")
 
-
+```
 if __name__ == "__main__":
     app = App()
     app.mainloop()
-```
+
 To integrate the given code to the custom tkinter GUI, you need to follow these steps:
 
 Import the necessary modules and packages in your file, including the custom tkinter package.
